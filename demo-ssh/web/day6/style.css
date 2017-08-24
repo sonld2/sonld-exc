@@ -1,0 +1,95 @@
+body {
+    font-size: 13px;
+    color: #333333;
+    background-color: #ffffff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.quote {
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid #404142;
+    text-align: center;
+    clear: both;
+}
+
+.quote p {
+    padding: 5px;
+    text-align: center;
+}
+
+.header-content {
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+header {
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+header img {
+    float: left;
+}
+
+header ul {
+    margin-top: 25px;
+    padding-left: 60%;
+    padding-right: 0;
+    display: inline-block;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+footer {
+    padding: 20px 20px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px solid #404142;
+    text-align: center;
+    clear: both;
+
+}
+
+main {
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px 65px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    overflow: auto;
+}
+
+.block img {
+    width: 320px;
+    height: 100px;
+}
+
+.block .block-title {
+
+    font-size: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
