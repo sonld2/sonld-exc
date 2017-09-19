@@ -1,0 +1,134 @@
+body {
+    font-size: 13px;
+    color: #333333;
+    background-color: #ffffff;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+blockquote {
+    margin: 0;
+    background: #6fa8dc;
+    color: white;
+    border: 2px solid #404142;
+    clear: both;
+    height: 100px;
+}
+
+article {
+    display: block;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+}
+
+.author {
+    margin-left: 60%;
+}
+
+header {
+    background-color: #eaf2f9;
+    clear: both;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.header-content{
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header img {
+    height: 90px;
+    float: left;
+    padding: 20px;
+}
+
+header ul {
+    float: right;
+    width: 20%;
+    padding: 38px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+footer {
+    padding: 20px 20px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px solid #404142;
+    text-align: center;
+    clear: both;
+
+}
+
+main {
+    padding-top: 120px;
+}
+
+section {
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px 65px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.block {
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    overflow: auto;
+}
+
+.block img {
+    width: 320px;
+    height: 100px;
+}
+
+.block .block-title {
+    font-size: 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.btn-scroll{
+    border: solid 2px black;
+    background-color: #eaf2f9;
+    border-radius: 10px;
+    float: right;
+    width: 150px;
+    height: 30px;
+    position: fixed;
+    right: 0.5%;
+    bottom: 70px;
+}
+
+.btn-text {
+    float: left;
+    margin: 0;
+    padding: 6px;
+}
+
+.btn-img {
+    height: 20px;
+    width: 20px;
+    margin: 6px;
+    float: left;
+}
